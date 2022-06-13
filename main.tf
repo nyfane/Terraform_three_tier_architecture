@@ -51,7 +51,7 @@ resource "aws_subnet" "application-subnet-1" {
   map_public_ip_on_launch = false
 
   tags = {
-    Name = "Application-1a"
+    Name = "App-1a"
   }
 }
 
@@ -62,7 +62,7 @@ resource "aws_subnet" "application-subnet-2" {
   map_public_ip_on_launch = false
 
   tags = {
-    Name = "Application-2b"
+    Name = "App-2b"
   }
 }
 
